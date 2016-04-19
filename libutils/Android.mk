@@ -95,6 +95,8 @@ LOCAL_C_INCLUDES += \
 		bionic/libc \
 		external/zlib
 
+LOCAL_SRC_FILES += MediatekHacks.cpp
+
 LOCAL_STATIC_LIBRARIES := \
 	libcutils
 
